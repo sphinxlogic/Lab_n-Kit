@@ -1,0 +1,604 @@
+
+; ==++==
+; 
+;   
+;    Copyright (c) 2006 Microsoft Corporation.  All rights reserved.
+;   
+;    The use and distribution terms for this software are contained in the file
+;    named license.txt, which can be found in the root of this distribution.
+;    By using this software in any fashion, you are agreeing to be bound by the
+;    terms of this license.
+;   
+;    You must not remove this notice, or any other, from this software.
+;   
+; 
+; ==--==
+;
+; rotor_pal.src - the .def file for rotor_pal.dll, after it has been
+;                 preprocessed.
+
+LIBRARY         rotor_pal
+EXPORTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+PAL_Initialize
+PAL_Terminate
+PAL_InitializeDebug
+
+PAL_GetUserConfigurationDirectoryW
+
+PAL_GetPALDirectoryW
+PAL_GetPALDirectoryA
+PAL_Random
+PAL_MakeOptimizedTlsGetter
+PAL_FreeOptimizedTlsGetter
+PAL_get_stdout
+PAL_get_stdin
+PAL_get_stderr
+PAL_RegisterLibraryW
+PAL_UnregisterLibraryW
+PAL_errno
+PAL_LocalHandleToRemote
+PAL_RemoteHandleToLocal
+
+PAL_CreateIoCompletionPort
+PAL_GetIOCPThreadIoPendingFlag
+PAL_GetCPUBusyTime
+
+
+SetUnhandledExceptionFilter = PAL_SetUnhandledExceptionFilter
+PAL_GetBottommostRegistration
+PAL_SetBottommostRegistration
+PAL_GetBottommostRegistrationPtr
+DoUnwind
+PAL_DoLastMomentUnwind
+PAL_TryHelper
+PAL_EndTryHelper
+PAL_EntryPoint
+
+MemoryBarrier = PAL_MemoryBarrier
+YieldProcessor = PAL_YieldProcessor
+
+
+
+
+
+
+InterlockedIncrement = KERNEL32.InterlockedIncrement
+InterlockedDecrement = KERNEL32.InterlockedDecrement
+InterlockedExchange = KERNEL32.InterlockedExchange
+InterlockedCompareExchange = KERNEL32.InterlockedCompareExchange
+TlsGetValue = KERNEL32.TlsGetValue
+TlsSetValue = KERNEL32.TlsSetValue
+QueryPerformanceCounter = KERNEL32.QueryPerformanceCounter
+QueryPerformanceFrequency = KERNEL32.QueryPerformanceFrequency
+
+
+FatalAppExitA = KERNEL32.FatalAppExitA
+UnhandledExceptionFilter = KERNEL32.UnhandledExceptionFilter
+IsDebuggerPresent = KERNEL32.IsDebuggerPresent
+
+
+FindAtomA = KERNEL32.FindAtomA
+AddAtomA = KERNEL32.AddAtomA
+GetAtomNameA = KERNEL32.GetAtomNameA
+GetModuleHandleA = KERNEL32.GetModuleHandleA
+
+CharNextA = USER32.CharNextA
+CharNextExA = USER32.CharNextExA
+wsprintfA = USER32.wsprintfA
+wsprintfW = USER32.wsprintfW
+MessageBoxW = PAL_MessageBoxW
+SetConsoleCtrlHandler = KERNEL32.SetConsoleCtrlHandler
+GenerateConsoleCtrlEvent = KERNEL32.GenerateConsoleCtrlEvent
+AreFileApisANSI = KERNEL32.AreFileApisANSI
+CreateFileA = KERNEL32.CreateFileA
+CreateFileW = KERNEL32.CreateFileW
+LockFile = KERNEL32.LockFile
+UnlockFile = KERNEL32.UnlockFile
+SearchPathA = KERNEL32.SearchPathA
+SearchPathW = KERNEL32.SearchPathW
+CreatePipe = KERNEL32.CreatePipe
+CopyFileA = KERNEL32.CopyFileA
+CopyFileW = KERNEL32.CopyFileW
+DeleteFileA = KERNEL32.DeleteFileA
+DeleteFileW = KERNEL32.DeleteFileW
+MoveFileA = KERNEL32.MoveFileA
+MoveFileW = KERNEL32.MoveFileW
+MoveFileExA = KERNEL32.MoveFileExA
+MoveFileExW = KERNEL32.MoveFileExW
+CreateDirectoryA = KERNEL32.CreateDirectoryA
+CreateDirectoryW = KERNEL32.CreateDirectoryW
+RemoveDirectoryA = KERNEL32.RemoveDirectoryA
+RemoveDirectoryW = KERNEL32.RemoveDirectoryW
+FindFirstFileA = KERNEL32.FindFirstFileA
+FindFirstFileW = KERNEL32.FindFirstFileW
+FindNextFileA = KERNEL32.FindNextFileA
+FindNextFileW = KERNEL32.FindNextFileW
+FindClose = KERNEL32.FindClose
+GetFileAttributesA = KERNEL32.GetFileAttributesA
+GetFileAttributesW = KERNEL32.GetFileAttributesW
+GetFileAttributesExW = KERNEL32.GetFileAttributesExW
+SetFileAttributesA = KERNEL32.SetFileAttributesA
+SetFileAttributesW = KERNEL32.SetFileAttributesW
+WriteFile = KERNEL32.WriteFile
+ReadFile = KERNEL32.ReadFile
+GetStdHandle = KERNEL32.GetStdHandle
+SetEndOfFile = KERNEL32.SetEndOfFile
+SetFilePointer = KERNEL32.SetFilePointer
+GetFileSize = KERNEL32.GetFileSize
+GetFileInformationByHandle = KERNEL32.GetFileInformationByHandle
+CompareFileTime = KERNEL32.CompareFileTime
+SetFileTime = KERNEL32.SetFileTime
+GetFileTime = KERNEL32.GetFileTime
+FileTimeToLocalFileTime = KERNEL32.FileTimeToLocalFileTime
+LocalFileTimeToFileTime = KERNEL32.LocalFileTimeToFileTime
+GetSystemTimeAsFileTime = KERNEL32.GetSystemTimeAsFileTime
+GetSystemTime = KERNEL32.GetSystemTime
+FileTimeToDosDateTime = KERNEL32.FileTimeToDosDateTime
+DosDateTimeToFileTime = KERNEL32.DosDateTimeToFileTime
+FlushFileBuffers = KERNEL32.FlushFileBuffers
+GetFileType = KERNEL32.GetFileType
+GetConsoleCP = KERNEL32.GetConsoleCP
+GetConsoleOutputCP = KERNEL32.GetConsoleOutputCP
+GetFullPathNameA = KERNEL32.GetFullPathNameA
+GetFullPathNameW = KERNEL32.GetFullPathNameW
+GetLongPathNameW = KERNEL32.GetLongPathNameW
+GetShortPathNameW = KERNEL32.GetShortPathNameW
+GetTempFileNameA = KERNEL32.GetTempFileNameA
+GetTempFileNameW = KERNEL32.GetTempFileNameW
+GetTempPathA = KERNEL32.GetTempPathA
+GetTempPathW = KERNEL32.GetTempPathW
+GetCurrentDirectoryA = KERNEL32.GetCurrentDirectoryA
+GetCurrentDirectoryW = KERNEL32.GetCurrentDirectoryW
+SetCurrentDirectoryA = KERNEL32.SetCurrentDirectoryA
+SetCurrentDirectoryW = KERNEL32.SetCurrentDirectoryW
+GetUserNameW = ADVAPI32.GetUserNameW
+GetComputerNameW = KERNEL32.GetComputerNameW
+GetLogicalDrives = KERNEL32.GetLogicalDrives 
+CreateSemaphoreA = KERNEL32.CreateSemaphoreA
+CreateSemaphoreW = KERNEL32.CreateSemaphoreW
+ReleaseSemaphore = KERNEL32.ReleaseSemaphore
+CreateEventA = PAL_CreateEventA
+CreateEventW = PAL_CreateEventW
+SetEvent = KERNEL32.SetEvent
+ResetEvent = KERNEL32.ResetEvent
+OpenEventW = PAL_OpenEventW
+CreateMutexA = PAL_CreateMutexA
+CreateMutexW = PAL_CreateMutexW
+ReleaseMutex = KERNEL32.ReleaseMutex
+GetCurrentProcessId = KERNEL32.GetCurrentProcessId
+GetCurrentProcess = KERNEL32.GetCurrentProcess
+GetCurrentThreadId = KERNEL32.GetCurrentThreadId
+GetCurrentThread = KERNEL32.GetCurrentThread
+CreateProcessW = PAL_CreateProcessW
+CreateProcessA = PAL_CreateProcessA
+ExitProcess = KERNEL32.ExitProcess
+TerminateProcess = KERNEL32.TerminateProcess
+GetExitCodeProcess = KERNEL32.GetExitCodeProcess
+GetProcessTimes = KERNEL32.GetProcessTimes
+WaitForSingleObject = KERNEL32.WaitForSingleObject
+WaitForSingleObjectEx = KERNEL32.WaitForSingleObjectEx
+WaitForMultipleObjects = KERNEL32.WaitForMultipleObjects
+WaitForMultipleObjectsEx = KERNEL32.WaitForMultipleObjectsEx
+DuplicateHandle = KERNEL32.DuplicateHandle
+Sleep = KERNEL32.Sleep
+SleepEx = KERNEL32.SleepEx
+SwitchToThread = KERNEL32.SwitchToThread
+CreateThread = PAL_CreateThread
+ExitThread = KERNEL32.ExitThread
+SuspendThread = KERNEL32.SuspendThread
+ResumeThread = KERNEL32.ResumeThread
+QueueUserAPC = KERNEL32.QueueUserAPC
+GetThreadContext = PAL_GetThreadContext
+SetThreadContext = PAL_SetThreadContext
+GetThreadPriority = KERNEL32.GetThreadPriority
+SetThreadPriority = KERNEL32.SetThreadPriority
+TlsAlloc = KERNEL32.TlsAlloc
+TlsFree = KERNEL32.TlsFree
+EnterCriticalSection = KERNEL32.EnterCriticalSection
+LeaveCriticalSection = KERNEL32.LeaveCriticalSection
+InitializeCriticalSection = KERNEL32.InitializeCriticalSection
+DeleteCriticalSection = KERNEL32.DeleteCriticalSection
+TryEnterCriticalSection = KERNEL32.TryEnterCriticalSection
+SetErrorMode = KERNEL32.SetErrorMode
+CreateFileMappingA = PAL_CreateFileMappingA
+CreateFileMappingW = PAL_CreateFileMappingW
+OpenFileMappingA = PAL_OpenFileMappingA
+OpenFileMappingW = PAL_OpenFileMappingW
+MapViewOfFile = KERNEL32.MapViewOfFile
+UnmapViewOfFile = KERNEL32.UnmapViewOfFile
+LoadLibraryA = KERNEL32.LoadLibraryA
+LoadLibraryW = KERNEL32.LoadLibraryW
+GetProcAddress = KERNEL32.GetProcAddress
+FreeLibrary = KERNEL32.FreeLibrary
+FreeLibraryAndExitThread = KERNEL32.FreeLibraryAndExitThread
+DisableThreadLibraryCalls = KERNEL32.DisableThreadLibraryCalls
+GetModuleFileNameA = KERNEL32.GetModuleFileNameA
+GetModuleFileNameW = KERNEL32.GetModuleFileNameW
+VirtualAlloc = KERNEL32.VirtualAlloc
+VirtualFree = KERNEL32.VirtualFree
+VirtualProtect = KERNEL32.VirtualProtect
+VirtualQuery = KERNEL32.VirtualQuery
+ReadProcessMemory = KERNEL32.ReadProcessMemory
+WriteProcessMemory = KERNEL32.WriteProcessMemory
+RtlMoveMemory = KERNEL32.RtlMoveMemory
+GetProcessHeap = KERNEL32.GetProcessHeap
+HeapAlloc = KERNEL32.HeapAlloc
+HeapReAlloc = KERNEL32.HeapReAlloc
+HeapFree = KERNEL32.HeapFree
+LocalAlloc = KERNEL32.LocalAlloc
+LocalFree = KERNEL32.LocalFree
+FlushInstructionCache = KERNEL32.FlushInstructionCache
+GetStringTypeExW = KERNEL32.GetStringTypeExW
+CompareStringA = KERNEL32.CompareStringA
+CompareStringW = KERNEL32.CompareStringW
+GetACP = KERNEL32.GetACP
+GetCPInfo = KERNEL32.GetCPInfo
+IsDBCSLeadByteEx = KERNEL32.IsDBCSLeadByteEx
+IsValidCodePage = KERNEL32.IsValidCodePage
+MultiByteToWideChar = KERNEL32.MultiByteToWideChar
+WideCharToMultiByte = KERNEL32.WideCharToMultiByte
+GetSystemDefaultLangID = KERNEL32.GetSystemDefaultLangID
+GetUserDefaultLangID = KERNEL32.GetUserDefaultLangID
+SetThreadLocale = KERNEL32.SetThreadLocale
+GetThreadLocale = KERNEL32.GetThreadLocale
+GetLocaleInfoW = KERNEL32.GetLocaleInfoW
+GetUserDefaultLCID = KERNEL32.GetUserDefaultLCID
+GetTimeZoneInformation = KERNEL32.GetTimeZoneInformation
+IsValidLocale = KERNEL32.IsValidLocale
+GetCalendarInfoW = KERNEL32.GetCalendarInfoW
+GetDateFormatW = KERNEL32.GetDateFormatW
+OutputDebugStringA = KERNEL32.OutputDebugStringA
+OutputDebugStringW = KERNEL32.OutputDebugStringW
+DebugBreak = KERNEL32.DebugBreak
+OpenProcess = KERNEL32.OpenProcess
+GetEnvironmentVariableA = KERNEL32.GetEnvironmentVariableA
+GetEnvironmentVariableW = KERNEL32.GetEnvironmentVariableW
+SetEnvironmentVariableA = KERNEL32.SetEnvironmentVariableA
+SetEnvironmentVariableW = KERNEL32.SetEnvironmentVariableW
+GetEnvironmentStringsA = KERNEL32.GetEnvironmentStringsA
+GetEnvironmentStringsW = KERNEL32.GetEnvironmentStringsW
+FreeEnvironmentStringsA = KERNEL32.FreeEnvironmentStringsA
+FreeEnvironmentStringsW = KERNEL32.FreeEnvironmentStringsW
+CloseHandle = KERNEL32.CloseHandle
+RaiseException = KERNEL32.RaiseException
+GetTickCount = KERNEL32.GetTickCount
+IsBadReadPtr = KERNEL32.IsBadReadPtr
+IsBadWritePtr = KERNEL32.IsBadWritePtr
+IsBadCodePtr = KERNEL32.IsBadCodePtr
+FormatMessageW = KERNEL32.FormatMessageW
+GetLastError = KERNEL32.GetLastError
+SetLastError = KERNEL32.SetLastError
+GetCommandLineW = KERNEL32.GetCommandLineW
+GetVersionExA = KERNEL32.GetVersionExA
+GetVersionExW = KERNEL32.GetVersionExW
+GetSystemInfo = KERNEL32.GetSystemInfo
+GetDiskFreeSpaceW = KERNEL32.GetDiskFreeSpaceW
+PostQueuedCompletionStatus = KERNEL32.PostQueuedCompletionStatus
+GetQueuedCompletionStatus = KERNEL32.GetQueuedCompletionStatus
+_ecvt = MSVCR80._ecvt
+log = MSVCR80.log
+malloc = MSVCR80.malloc
+free = MSVCR80.free
+realloc = MSVCR80.realloc
+exit = MSVCR80.exit
+atexit private 
+qsort = MSVCR80.qsort
+bsearch = MSVCR80.bsearch
+_splitpath = MSVCR80._splitpath
+_wsplitpath = MSVCR80._wsplitpath
+_makepath = MSVCR80._makepath
+_wmakepath = MSVCR80._wmakepath
+_fullpath = MSVCR80._fullpath
+_swab = MSVCR80._swab
+
+
+time = MSVCR80._time32
+localtime = MSVCR80._localtime32
+mktime = MSVCR80._mktime32
+
+
+
+
+
+
+_open_osfhandle = MSVCR80._open_osfhandle
+fclose = MSVCR80.fclose
+setbuf = MSVCR80.setbuf
+fwrite = MSVCR80.fwrite
+fread = MSVCR80.fread
+fputs = MSVCR80.fputs
+_getw = MSVCR80._getw
+_putw = MSVCR80._putw
+fseek = MSVCR80.fseek
+ftell = MSVCR80.ftell
+fgetpos = MSVCR80.fgetpos
+fsetpos = MSVCR80.fsetpos
+feof = MSVCR80.feof
+ferror = MSVCR80.ferror
+fopen = MSVCR80.fopen
+_fdopen = MSVCR80._fdopen
+_close = MSVCR80._close
+_wfopen = MSVCR80._wfopen
+memchr = MSVCR80.memchr
+strcmp = MSVCR80.strcmp
+strncmp = MSVCR80.strncmp
+_strnicmp = MSVCR80._strnicmp
+strcat = MSVCR80.strcat
+strncat = MSVCR80.strncat
+strcpy = MSVCR80.strcpy
+strncpy = MSVCR80.strncpy
+strchr = MSVCR80.strchr
+strrchr = MSVCR80.strrchr
+strpbrk = MSVCR80.strpbrk
+atoi = MSVCR80.atoi
+atol = MSVCR80.atol
+tolower = MSVCR80.tolower
+toupper = MSVCR80.toupper
+wcsncat = MSVCR80.wcsncat
+wcsncpy = MSVCR80.wcsncpy
+_itow = MSVCR80._itow
+_i64tow = MSVCR80._i64tow
+_ui64tow = MSVCR80._ui64tow
+_wtoi = MSVCR80._wtoi
+towlower = MSVCR80.towlower
+towupper = MSVCR80.towupper
+fflush = MSVCR80.fflush
+lstrcatW = KERNEL32.lstrcatW
+lstrcpyW = KERNEL32.lstrcpyW
+lstrlenA = KERNEL32.lstrlenA
+lstrlenW = KERNEL32.lstrlenW
+lstrcpynW = KERNEL32.lstrcpynW
+memcpy = MSVCR80.memcpy
+memcmp = MSVCR80.memcmp
+memset = MSVCR80.memset
+memmove = MSVCR80.memmove
+strlen = MSVCR80.strlen
+sprintf = MSVCR80.sprintf
+vsprintf = MSVCR80.vsprintf
+_snprintf = MSVCR80._snprintf
+_vsnprintf = MSVCR80._vsnprintf
+sscanf = MSVCR80.sscanf
+_stricmp = MSVCR80._stricmp
+strstr = MSVCR80.strstr
+strtok = MSVCR80.strtok
+strspn = MSVCR80.strspn
+strcspn = MSVCR80.strcspn
+strtoul = MSVCR80.strtoul
+atof = MSVCR80.atof
+_gcvt = MSVCR80._gcvt
+strtod = MSVCR80.strtod
+wcsspn = MSVCR80.wcsspn
+wcstod = MSVCR80.wcstod
+_strlwr = MSVCR80._strlwr
+_mbslen = MSVCR80._mbslen
+_mbsinc = MSVCR80._mbsinc
+_mbsninc = MSVCR80._mbsninc
+_mbsdec = MSVCR80._mbsdec
+wcstol = MSVCR80.wcstol
+wcstoul = MSVCR80.wcstoul
+wcscat = MSVCR80.wcscat
+wcscpy = MSVCR80.wcscpy
+wcslen = MSVCR80.wcslen
+wcscmp = MSVCR80.wcscmp
+wcsncmp = MSVCR80.wcsncmp
+_wcsicmp = MSVCR80._wcsicmp
+_wcsnicmp = MSVCR80._wcsnicmp
+wcschr = MSVCR80.wcschr
+wcsrchr = MSVCR80.wcsrchr
+
+
+swprintf = MSVCR80.?swprintf@@YAHPAGIPBGZZ
+
+
+
+
+vswprintf = MSVCR80.vswprintf
+_snwprintf = MSVCR80._snwprintf
+_vsnwprintf = MSVCR80._vsnwprintf
+swscanf = MSVCR80.swscanf
+iswalpha = MSVCR80.iswalpha
+iswupper = MSVCR80.iswupper
+iswspace = MSVCR80.iswspace
+iswprint = MSVCR80.iswprint
+isupper = MSVCR80.isupper
+islower = MSVCR80.islower
+wcspbrk = MSVCR80.wcspbrk
+wcsstr = MSVCR80.wcsstr
+wcstok = MSVCR80.wcstok
+wcscspn = MSVCR80.wcscspn
+_wcslwr = MSVCR80._wcslwr
+isspace = MSVCR80.isspace
+isprint = MSVCR80.isprint
+isalpha = MSVCR80.isalpha
+isalnum = MSVCR80.isalnum
+__iscsym = MSVCR80.__iscsym
+isdigit = MSVCR80.isdigit
+iswdigit = MSVCR80.iswdigit
+iswxdigit = MSVCR80.iswxdigit
+isxdigit = MSVCR80.isxdigit
+fprintf = MSVCR80.fprintf
+fwprintf = MSVCR80.fwprintf
+vfprintf = MSVCR80.vfprintf
+vfwprintf = MSVCR80.vfwprintf
+printf = MSVCR80.printf
+vprintf = MSVCR80.vprintf
+wprintf = MSVCR80.wprintf
+_rotl = MSVCR80._rotl
+_rotr = MSVCR80._rotr
+abs = MSVCR80.abs
+labs = MSVCR80.labs
+sqrt = MSVCR80.sqrt
+log10 = MSVCR80.log10
+exp = MSVCR80.exp
+pow = MSVCR80.pow
+acos = MSVCR80.acos
+asin = MSVCR80.asin
+atan = MSVCR80.atan
+atan2 = MSVCR80.atan2
+cos = MSVCR80.cos
+sin = MSVCR80.sin
+tan = MSVCR80.tan
+cosh = MSVCR80.cosh
+sinh = MSVCR80.sinh
+tanh = MSVCR80.tanh
+fmod = MSVCR80.fmod
+floor = MSVCR80.floor
+ceil = MSVCR80.ceil
+fabs = MSVCR80.fabs
+modf = MSVCR80.modf
+_finite = MSVCR80._finite
+_isnan = MSVCR80._isnan
+_copysign = MSVCR80._copysign
+_strdup = MSVCR80._strdup
+_ftol = MSVCR80._ftol
+getenv = MSVCR80.getenv
+_putenv = MSVCR80._putenv
+getc = MSVCR80.getc
+ungetc = MSVCR80.ungetc
+fputc = MSVCR80.fputc
+putchar = MSVCR80.putchar
+fgetc = MSVCR80.fgetc
+fgets = MSVCR80.fgets
+fgetws = MSVCR80.fgetws
+srand = MSVCR80.srand
+rand = MSVCR80.rand
+
+
+ctime = MSVCR80._ctime32
+
+
+
+
+gethostbyname = WS2_32.gethostbyname
+gethostbyaddr = WS2_32.gethostbyaddr
+gethostname = WS2_32.gethostname
+inet_addr = WS2_32.inet_addr
+getpeername = WS2_32.getpeername
+getsockopt = WS2_32.getsockopt
+setsockopt = WS2_32.setsockopt
+connect = WS2_32.connect
+send = WS2_32.send
+recv = WS2_32.recv
+closesocket = WS2_32.closesocket
+accept = WS2_32.accept
+listen = WS2_32.listen
+bind = WS2_32.bind
+shutdown = WS2_32.shutdown
+sendto = WS2_32.sendto
+recvfrom = WS2_32.recvfrom
+getsockname = WS2_32.getsockname
+select = WS2_32.select
+socket = WS2_32.socket
+WSAStartup = WS2_32.WSAStartup
+WSACleanup = WS2_32.WSACleanup
+WSAConnect = WS2_32.WSAConnect
+WSASend = WS2_32.WSASend
+WSASendTo = WS2_32.WSASendTo
+WSARecv = WS2_32.WSARecv
+WSARecvFrom = WS2_32.WSARecvFrom
+WSAEventSelect = WS2_32.WSAEventSelect
+WSASocketA = WS2_32.WSASocketA
+WSASocketW = WS2_32.WSASocketW
+WSAIoctl = WS2_32.WSAIoctl
+WSAEnumNetworkEvents = WS2_32.WSAEnumNetworkEvents
+ioctlsocket = WS2_32.ioctlsocket
+
+WSAGetOverlappedResult = WS2_32.WSAGetOverlappedResult
+

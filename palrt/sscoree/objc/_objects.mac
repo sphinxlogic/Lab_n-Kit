@@ -1,0 +1,36 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\functions.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\sscoree_exports.obj \
+    $(_OBJ_DIR)\i386\sscoree_int.obj \
+    $(_OBJ_DIR)\i386\sscoree_debug.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\functions.obj \
+    $(_OBJ_DIR)\ia64\globals.obj \
+    $(_OBJ_DIR)\ia64\sscoree_exports.obj \
+    $(_OBJ_DIR)\ia64\sscoree_int.obj \
+    $(_OBJ_DIR)\ia64\sscoree_debug.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\functions.obj \
+    $(_OBJ_DIR)\amd64\globals.obj \
+    $(_OBJ_DIR)\amd64\sscoree_exports.obj \
+    $(_OBJ_DIR)\amd64\sscoree_int.obj \
+    $(_OBJ_DIR)\amd64\sscoree_debug.obj
+
+PASS0_AMD64_OBJECTS=
+
+ROTOR_X86_OBJECTS= \
+    $(_OBJ_DIR)\rotor_x86\functions.obj \
+    $(_OBJ_DIR)\rotor_x86\globals.obj \
+    $(_OBJ_DIR)\rotor_x86\sscoree_exports.obj \
+    $(_OBJ_DIR)\rotor_x86\sscoree_int.obj \
+    $(_OBJ_DIR)\rotor_x86\sscoree_debug.obj
+
+PASS0_ROTOR_X86_OBJECTS=
+

@@ -1,0 +1,120 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rotor_palrt.res \
+    $(_OBJ_DIR)\i386\bignum.obj \
+    $(_OBJ_DIR)\i386\bstr.obj \
+    $(_OBJ_DIR)\i386\cocreate.obj \
+    $(_OBJ_DIR)\i386\coguid.obj \
+    $(_OBJ_DIR)\i386\comem.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\crtstuff.obj \
+    $(_OBJ_DIR)\i386\decarith.obj \
+    $(_OBJ_DIR)\i386\decimal.obj \
+    $(_OBJ_DIR)\i386\dllmain.obj \
+    $(_OBJ_DIR)\i386\errinfo.obj \
+    $(_OBJ_DIR)\i386\crypt.obj \
+    $(_OBJ_DIR)\i386\inifile.obj \
+    $(_OBJ_DIR)\i386\loadstring.obj \
+    $(_OBJ_DIR)\i386\md5.obj \
+    $(_OBJ_DIR)\i386\memorystream.obj \
+    $(_OBJ_DIR)\i386\numprs.obj \
+    $(_OBJ_DIR)\i386\palconfig.obj \
+    $(_OBJ_DIR)\i386\path.obj \
+    $(_OBJ_DIR)\i386\sarray.obj \
+    $(_OBJ_DIR)\i386\sha1.obj \
+    $(_OBJ_DIR)\i386\shstr.obj \
+    $(_OBJ_DIR)\i386\strings.obj \
+    $(_OBJ_DIR)\i386\urlpars.obj \
+    $(_OBJ_DIR)\i386\variant.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\rotor_palrt.res \
+    $(_OBJ_DIR)\ia64\bignum.obj \
+    $(_OBJ_DIR)\ia64\bstr.obj \
+    $(_OBJ_DIR)\ia64\cocreate.obj \
+    $(_OBJ_DIR)\ia64\coguid.obj \
+    $(_OBJ_DIR)\ia64\comem.obj \
+    $(_OBJ_DIR)\ia64\convert.obj \
+    $(_OBJ_DIR)\ia64\crtstuff.obj \
+    $(_OBJ_DIR)\ia64\decarith.obj \
+    $(_OBJ_DIR)\ia64\decimal.obj \
+    $(_OBJ_DIR)\ia64\dllmain.obj \
+    $(_OBJ_DIR)\ia64\errinfo.obj \
+    $(_OBJ_DIR)\ia64\crypt.obj \
+    $(_OBJ_DIR)\ia64\inifile.obj \
+    $(_OBJ_DIR)\ia64\loadstring.obj \
+    $(_OBJ_DIR)\ia64\md5.obj \
+    $(_OBJ_DIR)\ia64\memorystream.obj \
+    $(_OBJ_DIR)\ia64\numprs.obj \
+    $(_OBJ_DIR)\ia64\palconfig.obj \
+    $(_OBJ_DIR)\ia64\path.obj \
+    $(_OBJ_DIR)\ia64\sarray.obj \
+    $(_OBJ_DIR)\ia64\sha1.obj \
+    $(_OBJ_DIR)\ia64\shstr.obj \
+    $(_OBJ_DIR)\ia64\strings.obj \
+    $(_OBJ_DIR)\ia64\urlpars.obj \
+    $(_OBJ_DIR)\ia64\variant.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\rotor_palrt.res \
+    $(_OBJ_DIR)\amd64\bignum.obj \
+    $(_OBJ_DIR)\amd64\bstr.obj \
+    $(_OBJ_DIR)\amd64\cocreate.obj \
+    $(_OBJ_DIR)\amd64\coguid.obj \
+    $(_OBJ_DIR)\amd64\comem.obj \
+    $(_OBJ_DIR)\amd64\convert.obj \
+    $(_OBJ_DIR)\amd64\crtstuff.obj \
+    $(_OBJ_DIR)\amd64\decarith.obj \
+    $(_OBJ_DIR)\amd64\decimal.obj \
+    $(_OBJ_DIR)\amd64\dllmain.obj \
+    $(_OBJ_DIR)\amd64\errinfo.obj \
+    $(_OBJ_DIR)\amd64\crypt.obj \
+    $(_OBJ_DIR)\amd64\inifile.obj \
+    $(_OBJ_DIR)\amd64\loadstring.obj \
+    $(_OBJ_DIR)\amd64\md5.obj \
+    $(_OBJ_DIR)\amd64\memorystream.obj \
+    $(_OBJ_DIR)\amd64\numprs.obj \
+    $(_OBJ_DIR)\amd64\palconfig.obj \
+    $(_OBJ_DIR)\amd64\path.obj \
+    $(_OBJ_DIR)\amd64\sarray.obj \
+    $(_OBJ_DIR)\amd64\sha1.obj \
+    $(_OBJ_DIR)\amd64\shstr.obj \
+    $(_OBJ_DIR)\amd64\strings.obj \
+    $(_OBJ_DIR)\amd64\urlpars.obj \
+    $(_OBJ_DIR)\amd64\variant.obj
+
+PASS0_AMD64_OBJECTS=
+
+ROTOR_X86_OBJECTS= \
+    $(_OBJ_DIR)\rotor_x86\rotor_palrt.res \
+    $(_OBJ_DIR)\rotor_x86\bignum.obj \
+    $(_OBJ_DIR)\rotor_x86\bstr.obj \
+    $(_OBJ_DIR)\rotor_x86\cocreate.obj \
+    $(_OBJ_DIR)\rotor_x86\coguid.obj \
+    $(_OBJ_DIR)\rotor_x86\comem.obj \
+    $(_OBJ_DIR)\rotor_x86\convert.obj \
+    $(_OBJ_DIR)\rotor_x86\crtstuff.obj \
+    $(_OBJ_DIR)\rotor_x86\decarith.obj \
+    $(_OBJ_DIR)\rotor_x86\decimal.obj \
+    $(_OBJ_DIR)\rotor_x86\dllmain.obj \
+    $(_OBJ_DIR)\rotor_x86\errinfo.obj \
+    $(_OBJ_DIR)\rotor_x86\crypt.obj \
+    $(_OBJ_DIR)\rotor_x86\inifile.obj \
+    $(_OBJ_DIR)\rotor_x86\loadstring.obj \
+    $(_OBJ_DIR)\rotor_x86\md5.obj \
+    $(_OBJ_DIR)\rotor_x86\memorystream.obj \
+    $(_OBJ_DIR)\rotor_x86\numprs.obj \
+    $(_OBJ_DIR)\rotor_x86\palconfig.obj \
+    $(_OBJ_DIR)\rotor_x86\path.obj \
+    $(_OBJ_DIR)\rotor_x86\sarray.obj \
+    $(_OBJ_DIR)\rotor_x86\sha1.obj \
+    $(_OBJ_DIR)\rotor_x86\shstr.obj \
+    $(_OBJ_DIR)\rotor_x86\strings.obj \
+    $(_OBJ_DIR)\rotor_x86\urlpars.obj \
+    $(_OBJ_DIR)\rotor_x86\variant.obj
+
+PASS0_ROTOR_X86_OBJECTS=
+

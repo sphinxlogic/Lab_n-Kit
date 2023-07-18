@@ -1,0 +1,384 @@
+BUILD: Compile and Link for rotor_x86
+BUILD: Computing Include file dependencies:
+BUILD: Examining d:\_ntroot\standard\palrt directory tree for files to compile.
+BUILD: Compile and Link for rotor_x86
+BUILD: Computing Include file dependencies:
+BUILD: Examining d:\_ntroot\standard\palrt directory tree for files to compile.
+BUILD: Compile and Link for rotor_x86
+BUILD: Computing Include file dependencies:
+BUILD: Examining d:\_ntroot\standard\palrt directory tree for files to compile.
+BUILD: Compile and Link for rotor_x86
+BUILD: Computing Include file dependencies:
+BUILD: Examining d:\_ntroot\standard\palrt directory tree for files to compile.
+Compiling d:\_ntroot\standard\palrt\debug directory ********************
+'NMAKE.EXE -c BUILDMSG=Stop. NTTEST= UMTEST= BUILD_PHASE= NOLINK=1 NOPASS0=1 ROTOR_X86=1'
+1>BUILDMSG: Processing d:\_ntroot\standard\palrt\debug
+Compiling d:\_ntroot\standard\palrt\static directory ********************
+'NMAKE.EXE -c BUILDMSG=Stop. NTTEST= UMTEST= BUILD_PHASE= NOLINK=1 NOPASS0=1 ROTOR_X86=1'
+2>BUILDMSG: Processing d:\_ntroot\standard\palrt\static
+Compiling d:\_ntroot\standard\palrt\src directory ********************
+Compiling d:\_ntroot\standard\palrt\sscoree directory ********************
+'NMAKE.EXE -c BUILDMSG=Stop. NTTEST= UMTEST= BUILD_PHASE= NOLINK=1 NOPASS0=1 ROTOR_X86=1'
+3>BUILDMSG: Processing d:\_ntroot\standard\palrt\sscoree
+1>	if not exist objc\rotor_x86 md objc\rotor_x86
+2>cl -nologo -Ii386\ -I. -ID:\_NTROOT\Standard\vscommon\inc -ID:\_NTROOT\Standard\vscommon\unilib -ID:\_NTROOT\Standard\vscommon\util -ID:\_NTROOT\Standard\prebuilt\idl\objc\rotor_x86 -ID:\_NTROOT\Standard\clr\src\inc -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DUNIAPI_NOATL -DDEBUG -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\static\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\guid.cpp
+3>cl -nologo -Ii386\ -I. -I. -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=sscoree.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\sscoree\objc\rotor_x86\   -DUNICODE -D_UNICODE  /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\functions.cpp
+2>guid.cpp
+3>functions.cpp
+1>cl -nologo -Ii386\ -I. -ID:\_NTROOT\Standard\vscommon\inc -ID:\_NTROOT\Standard\vscommon\unilib -ID:\_NTROOT\Standard\vscommon\util -ID:\_NTROOT\Standard\prebuilt\idl\objc\rotor_x86 -ID:\_NTROOT\Standard\clr\src\inc -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DUNIAPI_NOATL -DDEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_debug.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\debug\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\method.c
+1>method.c
+1>	lib -out:D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_debug.lib @C:\Users\JONATH~1\AppData\Local\Temp\nm7649.tmp
+1>Microsoft (R) Library Manager Version 8.00.50727.762
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089,4198,4221 
+1>-nodefaultlib 
+1>-machine:i386 
+1>-def:rotor_debug.def 
+1>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_pal.lib 
+1>objc\rotor_x86\method.obj 
+1>C:\PROGRA~2\MICROS~2\VC\lib\msvcrtd.lib 
+1>   Creating library D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_debug.lib and object D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_debug.exp
+1>
+2>	if not exist D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86 md D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86
+1>Stop.
+3>cl -nologo -Ii386\ -I. -I. -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=sscoree.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\sscoree\objc\rotor_x86\   -DUNICODE -D_UNICODE  /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\globals.cpp
+3>globals.cpp
+2>	lib -out:D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt_s.lib  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089,4198,4221 -nodefaultlib -machine:i386 @C:\Users\JONATH~1\AppData\Local\Temp\nm76C6.tmp
+2>Microsoft (R) Library Manager Version 8.00.50727.762
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>
+2>objc\rotor_x86\guid.obj 
+2>	bscmake -nologo -o "D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt_s.bsc" @objc\rotor_x86\bscmake.rsp
+3>cl -nologo -Ii386\ -I. -I. -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=sscoree.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\sscoree\objc\rotor_x86\   -DUNICODE -D_UNICODE  /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\sscoree_exports.cpp
+3>sscoree_exports.cpp
+2>
+2>Stop.
+3>cl -nologo -Ii386\ -I. -I. -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=sscoree.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\sscoree\objc\rotor_x86\   -DUNICODE -D_UNICODE  /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\sscoree_int.cpp
+'NMAKE.EXE -c BUILDMSG=Stop. NTTEST= UMTEST= BUILD_PHASE= NOLINK=1 NOPASS0=1 ROTOR_X86=1'
+4>BUILDMSG: Processing d:\_ntroot\standard\palrt\src
+3>sscoree_int.cpp
+4>	D:\_NTROOT\Standard\binaries.x86chk.rotor\resourcecompiler.exe -fo D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt.satellite -Di386 -D_X86_ -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400 -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0 -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0  -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc .\rotor_palrt.rc
+3>cl -nologo -Ii386\ -I. -I. -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=sscoree.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\sscoree\objc\rotor_x86\   -DUNICODE -D_UNICODE  /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\sscoree_debug.cpp
+3>sscoree_debug.cpp
+4>rotor_palrt.rc
+4>
+4>
+4>.\rotor_palrt.rc
+4>	if not exist objc\rotor_x86 md objc\rotor_x86
+4>	if exist D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt.satellite binplace -R D:\_NTROOT\Standard\binaries.x86chk.rotor -S D:\_NTROOT\Standard\binaries.x86chk.rotor\Symbols -x -n D:\_NTROOT\Standard\binaries.x86chk.rotor\Symbols.pri -y -P D:\_NTROOT\Standard\env\bin\placefil.txt  D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt.satellite
+3>cl -nologo -Ii386\ -I. -I. -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=sscoree.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\sscoree\objc\rotor_x86\   -DUNICODE -D_UNICODE  /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\sscoree.src /EP .\sscoree.src
+4>	type D:\_NTROOT\Standard\binaries.x86chk.rotor\empty.res >objc\rotor_x86\rotor_palrt.res
+3>sscoree.src
+3>	lib -out:D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\sscoree.lib @C:\Users\JONATH~1\AppData\Local\Temp\nm7957.tmp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\bignum.cpp
+4>bignum.cpp
+3>Microsoft (R) Library Manager Version 8.00.50727.762
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>
+3>-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089,4198,4221 
+3>-nodefaultlib 
+3>-machine:i386 
+3>-def:objc\rotor_x86\sscoree.def 
+3>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_pal.lib 
+3>objc\rotor_x86\functions.obj 
+3>objc\rotor_x86\globals.obj 
+3>objc\rotor_x86\sscoree_exports.obj 
+3>objc\rotor_x86\sscoree_int.obj 
+3>objc\rotor_x86\sscoree_debug.obj 
+3>C:\PROGRA~2\MICROS~2\VC\lib\msvcrtd.lib 
+3>   Creating library D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\sscoree.lib and object D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\sscoree.exp
+3>
+3>Stop.
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\bstr.cpp
+4>bstr.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\cocreate.cpp
+4>cocreate.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\coguid.cpp
+4>coguid.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\comem.cpp
+4>comem.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\convert.cpp
+4>convert.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\crtstuff.cpp
+4>crtstuff.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\decarith.cpp
+4>decarith.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\decimal.cpp
+4>decimal.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\dllmain.cpp
+4>dllmain.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\errinfo.cpp
+4>errinfo.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\crypt.cpp
+4>crypt.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\inifile.cpp
+4>inifile.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\loadstring.cpp
+4>loadstring.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\md5.cpp
+4>md5.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\memorystream.cpp
+4>memorystream.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\numprs.cpp
+4>numprs.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\palconfig.cpp
+4>palconfig.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\path.cpp
+4>path.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\sarray.cpp
+4>sarray.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\sha1.cpp
+4>sha1.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\shstr.cpp
+4>shstr.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\strings.cpp
+4>strings.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\urlpars.cpp
+4>urlpars.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\variant.cpp
+4>variant.cpp
+4>cl -nologo -Ii386\ -I. -I..\inc -I..\..\pal -ID:\_NTROOT\Standard\not_present\OAK_INC_PATH -ID:\_NTROOT\Standard\pal\inc -ID:\_NTROOT\Standard\palrt\inc -Di386 -D_X86_  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0    -D_DEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -D_DEBUG -DFX_VFT=VFT_DLL -DFX_VER_INTERNALNAME_STR=rotor_palrt.dll -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=MICROSOFT -DURTBLDENV_FRIENDLY=Checked -DFX_BRANCH_SYNC_COUNTER_VALUE=0    /c /GS /Zp8 /Gy /W3 /Gz   /Gm- /EHs-c-  /GR- /GF  -Z7 /O1 /Oy- /FRd:\_ntroot\standard\palrt\src\objc\rotor_x86\    /WX /FID:\_NTROOT\Standard\clr\src\inc\WarningControl.h  .\rotor_palrt.src /EP .\rotor_palrt.src
+4>rotor_palrt.src
+4>	lib -out:D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt.lib @C:\Users\JONATH~1\AppData\Local\Temp\nm8954.tmp
+4>Microsoft (R) Library Manager Version 8.00.50727.762
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>
+4>-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089,4198,4221 
+4>-nodefaultlib 
+4>-machine:i386 
+4>-def:objc\rotor_x86\rotor_palrt.def 
+4>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_pal.lib 
+4>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt_s.lib 
+4>objc\rotor_x86\rotor_palrt.res 
+4>objc\rotor_x86\bignum.obj 
+4>objc\rotor_x86\bstr.obj 
+4>objc\rotor_x86\cocreate.obj 
+4>objc\rotor_x86\coguid.obj 
+4>objc\rotor_x86\comem.obj 
+4>objc\rotor_x86\convert.obj 
+4>objc\rotor_x86\crtstuff.obj 
+4>objc\rotor_x86\decarith.obj 
+4>objc\rotor_x86\decimal.obj 
+4>objc\rotor_x86\dllmain.obj 
+4>objc\rotor_x86\errinfo.obj 
+4>objc\rotor_x86\crypt.obj 
+4>objc\rotor_x86\inifile.obj 
+4>objc\rotor_x86\loadstring.obj 
+4>objc\rotor_x86\md5.obj 
+4>objc\rotor_x86\memorystream.obj 
+4>objc\rotor_x86\numprs.obj 
+4>objc\rotor_x86\palconfig.obj 
+4>objc\rotor_x86\path.obj 
+4>objc\rotor_x86\sarray.obj 
+4>objc\rotor_x86\sha1.obj 
+4>objc\rotor_x86\shstr.obj 
+4>objc\rotor_x86\strings.obj 
+4>objc\rotor_x86\urlpars.obj 
+4>objc\rotor_x86\variant.obj 
+4>C:\PROGRA~2\MICROS~2\VC\lib\msvcrtd.lib 
+4>   Creating library D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt.lib and object D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt.exp
+4>
+4>Stop.
+Linking d:\_ntroot\standard\palrt\debug directory ********************
+'NMAKE.EXE -c BUILDMSG=Stop. LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 BUILD_PHASE= ROTOR_X86=1'
+Linking d:\_ntroot\standard\palrt\src directory ********************
+'NMAKE.EXE -c BUILDMSG=Stop. LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 BUILD_PHASE= ROTOR_X86=1'
+Linking d:\_ntroot\standard\palrt\sscoree directory ********************
+'NMAKE.EXE -c BUILDMSG=Stop. LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 BUILD_PHASE= ROTOR_X86=1'
+2>	link -out:objc\rotor_x86\rotor_palrt.dll -machine:i386 @C:\Users\JONATH~1\AppData\Local\Temp\nm8AFA.tmp
+1>	link -out:objc\rotor_x86\rotor_debug.dll -machine:i386 @C:\Users\JONATH~1\AppData\Local\Temp\nm8B0A.tmp
+3>	link -out:objc\rotor_x86\sscoree.dll -machine:i386 @C:\Users\JONATH~1\AppData\Local\Temp\nm8B0B.tmp
+2>Microsoft (R) Incremental Linker Version 8.00.50727.762
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>
+2>/SAFESEH:NO 
+2>-STACK:0x180000,0x2000 
+2>-MERGE:_PAGE=PAGE 
+2>-MERGE:_TEXT=.text 
+2>-SECTION:INIT,d 
+2>-OPT:REF 
+2>-OPT:ICF 
+2>-INCREMENTAL:NO 
+2>-FULLBUILD 
+2>-FORCE:MULTIPLE 
+2>/release 
+2>-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089,4198,4221 
+2>-NODEFAULTLIB 
+2>-debug 
+2>-version:5.00 
+2>-osversion:5.00 
+2>-MERGE:.rdata=.text 
+2>-dll 
+2>-base:@D:\_NTROOT\Standard\env\rotor_x86\coffbase.txt,rotor_palrt 
+2>-subsystem:windows,4.00 
+2>-entry:_DllMainCRTStartup@12 
+2>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt.exp 
+2>objc\rotor_x86\rotor_palrt.res 
+2>objc\rotor_x86\bignum.obj 
+2>objc\rotor_x86\bstr.obj 
+2>objc\rotor_x86\cocreate.obj 
+2>objc\rotor_x86\coguid.obj 
+2>objc\rotor_x86\comem.obj 
+2>objc\rotor_x86\convert.obj 
+2>objc\rotor_x86\crtstuff.obj 
+2>objc\rotor_x86\decarith.obj 
+2>objc\rotor_x86\decimal.obj 
+2>objc\rotor_x86\dllmain.obj 
+2>objc\rotor_x86\errinfo.obj 
+2>objc\rotor_x86\crypt.obj 
+2>objc\rotor_x86\inifile.obj 
+2>objc\rotor_x86\loadstring.obj 
+2>objc\rotor_x86\md5.obj 
+2>objc\rotor_x86\memorystream.obj 
+2>objc\rotor_x86\numprs.obj 
+2>objc\rotor_x86\palconfig.obj 
+2>objc\rotor_x86\path.obj 
+2>objc\rotor_x86\sarray.obj 
+2>objc\rotor_x86\sha1.obj 
+2>objc\rotor_x86\shstr.obj 
+2>objc\rotor_x86\strings.obj 
+2>objc\rotor_x86\urlpars.obj 
+2>objc\rotor_x86\variant.obj 
+2>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_pal.lib 
+2>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt_s.lib 
+2>C:\PROGRA~2\MICROS~2\VC\lib\msvcrtd.lib 
+1>Microsoft (R) Incremental Linker Version 8.00.50727.762
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>/SAFESEH:NO 
+1>-STACK:0x180000,0x2000 
+1>-MERGE:_PAGE=PAGE 
+1>-MERGE:_TEXT=.text 
+1>-SECTION:INIT,d 
+1>-OPT:REF 
+1>-OPT:ICF 
+1>-INCREMENTAL:NO 
+1>-FULLBUILD 
+1>-FORCE:MULTIPLE 
+1>/release 
+1>-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089,4198,4221 
+1>-NODEFAULTLIB 
+1>-debug 
+1>-version:5.00 
+1>-osversion:5.00 
+1>-MERGE:.rdata=.text 
+1>-dll 
+1>-base:@D:\_NTROOT\Standard\env\rotor_x86\coffbase.txt,rotor_debug 
+1>-subsystem:windows,4.00 
+1>-entry:_DllMainCRTStartup@12 
+1>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_debug.exp 
+1>objc\rotor_x86\method.obj 
+3>Microsoft (R) Incremental Linker Version 8.00.50727.762
+1>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_pal.lib 
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>C:\PROGRA~2\MICROS~2\VC\lib\msvcrtd.lib 
+3>
+3>/SAFESEH:NO 
+3>-STACK:0x180000,0x2000 
+3>-MERGE:_PAGE=PAGE 
+3>-MERGE:_TEXT=.text 
+3>-SECTION:INIT,d 
+3>-OPT:REF 
+3>-OPT:ICF 
+3>-INCREMENTAL:NO 
+3>-FULLBUILD 
+3>-FORCE:MULTIPLE 
+3>/release 
+3>-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089,4198,4221 
+3>-NODEFAULTLIB 
+3>-debug 
+3>-version:5.00 
+3>-osversion:5.00 
+3>-MERGE:.rdata=.text 
+3>-dll 
+3>-base:@D:\_NTROOT\Standard\env\rotor_x86\coffbase.txt,sscoree 
+3>-subsystem:windows,4.00 
+3>-entry:_DllMainCRTStartup@12 
+3>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\sscoree.exp 
+3>objc\rotor_x86\functions.obj 
+3>objc\rotor_x86\globals.obj 
+3>objc\rotor_x86\sscoree_exports.obj 
+3>objc\rotor_x86\sscoree_int.obj 
+3>objc\rotor_x86\sscoree_debug.obj 
+3>D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_pal.lib 
+3>C:\PROGRA~2\MICROS~2\VC\lib\msvcrtd.lib 
+3>binplace d:\_ntroot\standard\palrt\sscoree\objc\rotor_x86\sscoree.dll
+3>	bscmake -nologo -o "objc\rotor_x86\sscoree.bsc" @objc\rotor_x86\bscmake.rsp
+2>binplace d:\_ntroot\standard\palrt\src\objc\rotor_x86\rotor_palrt.dll
+2>	bscmake -nologo -o "objc\rotor_x86\rotor_palrt.bsc" @objc\rotor_x86\bscmake.rsp
+1>binplace d:\_ntroot\standard\palrt\debug\objc\rotor_x86\rotor_debug.dll
+1>	bscmake -nologo -o "objc\rotor_x86\rotor_debug.bsc" @objc\rotor_x86\bscmake.rsp
+3>
+1>
+1>Stop.
+3>Stop.
+2>binplace D:\_NTROOT\Standard\palrt\inc\asm_version.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\assert.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\atl.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\atlcom.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\atlwin.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\ccombstr.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\crtdbg.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\cstring.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\ctype.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\fcntl.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\float.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\fxver.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\fxverstrings.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\guiddef.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\io.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\limits.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\malloc.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\math.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\mbstring.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\memory.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\ndpversion.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\new.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\ntimage.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\oaidl.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\objbase.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\objidl.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\ole2.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\oleauto.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\oleidl.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\palexecmain.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\palstartup.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\palstartupw.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\poppack.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\process.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\product_version.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\pshpack1.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\pshpack2.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\pshpack4.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\pshpack8.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\pshpck16.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\rotor_palrt.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\rpc.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\rpcndr.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\safecrt.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\servprov.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\shlwapi.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\specstrings.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\sscli_version.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\stdarg.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\stddef.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\stdio.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\stdlib.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\string.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\time.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\unknwn.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\version.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\vsassert.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\wchar.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\winbase.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\wincrypt.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\windef.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\windows.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\winerror.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\winnls.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\winresrc.h
+2>binplace D:\_NTROOT\Standard\palrt\inc\winver.h
+2>binplace D:\_NTROOT\Standard\binaries.x86chk.rotor\sdk\pal\lib\chk\rotor_x86\rotor_palrt.lib
+2>
+2>Stop.

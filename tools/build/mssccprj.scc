@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[build.sln]
+SCC_Aux_Path = "D:\VSS"
+SCC_Project_Name = "$/LAB01_N/tools/build", KCFAAAAA
+
+[build.vcproj]
+SCC_Aux_Path = "D:\VSS"
+SCC_Project_Name = "$/LAB01_N/tools/build", KCFAAAAA

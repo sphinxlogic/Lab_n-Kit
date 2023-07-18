@@ -1,0 +1,604 @@
+
+; ==++==
+; 
+;   
+;    Copyright (c) 2006 Microsoft Corporation.  All rights reserved.
+;   
+;    The use and distribution terms for this software are contained in the file
+;    named license.txt, which can be found in the root of this distribution.
+;    By using this software in any fashion, you are agreeing to be bound by the
+;    terms of this license.
+;   
+;    You must not remove this notice, or any other, from this software.
+;   
+; 
+; ==--==
+;
+; rotor_pal.src - the .def file for rotor_pal.dll, after it has been
+;                 preprocessed.
+
+LIBRARY         rotor_pal
+EXPORTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+PAL_Initialize
+PAL_Terminate
+PAL_InitializeDebug
+
+PAL_GetUserConfigurationDirectoryW
+
+PAL_GetPALDirectoryW
+PAL_GetPALDirectoryA
+PAL_Random
+PAL_MakeOptimizedTlsGetter
+PAL_FreeOptimizedTlsGetter
+PAL_get_stdout
+PAL_get_stdin
+PAL_get_stderr
+PAL_RegisterLibraryW
+PAL_UnregisterLibraryW
+PAL_errno
+PAL_LocalHandleToRemote
+PAL_RemoteHandleToLocal
+
+PAL_CreateIoCompletionPort
+PAL_GetIOCPThreadIoPendingFlag
+PAL_GetCPUBusyTime
+
+
+SetUnhandledExceptionFilter = PAL_SetUnhandledExceptionFilter
+PAL_GetBottommostRegistration
+PAL_SetBottommostRegistration
+PAL_GetBottommostRegistrationPtr
+DoUnwind
+PAL_DoLastMomentUnwind
+PAL_TryHelper
+PAL_EndTryHelper
+PAL_EntryPoint
+
+MemoryBarrier = PAL_MemoryBarrier
+YieldProcessor = PAL_YieldProcessor
+
+
+
+
+
+
+InterlockedIncrement = KERNEL32.InterlockedIncrement
+InterlockedDecrement = KERNEL32.InterlockedDecrement
+InterlockedExchange = KERNEL32.InterlockedExchange
+InterlockedCompareExchange = KERNEL32.InterlockedCompareExchange
+TlsGetValue = KERNEL32.TlsGetValue
+TlsSetValue = KERNEL32.TlsSetValue
+QueryPerformanceCounter = KERNEL32.QueryPerformanceCounter
+QueryPerformanceFrequency = KERNEL32.QueryPerformanceFrequency
+
+
+FatalAppExitA = KERNEL32.FatalAppExitA
+UnhandledExceptionFilter = KERNEL32.UnhandledExceptionFilter
+IsDebuggerPresent = KERNEL32.IsDebuggerPresent
+
+
+FindAtomA = KERNEL32.FindAtomA
+AddAtomA = KERNEL32.AddAtomA
+GetAtomNameA = KERNEL32.GetAtomNameA
+GetModuleHandleA = KERNEL32.GetModuleHandleA
+
+CharNextA = PAL_CharNextA
+CharNextExA = PAL_CharNextExA
+wsprintfA = PAL_wsprintfA
+wsprintfW = PAL_wsprintfW
+MessageBoxW = PAL_MessageBoxW
+SetConsoleCtrlHandler = PAL_SetConsoleCtrlHandler
+GenerateConsoleCtrlEvent = PAL_GenerateConsoleCtrlEvent
+AreFileApisANSI = PAL_AreFileApisANSI
+CreateFileA = PAL_CreateFileA
+CreateFileW = PAL_CreateFileW
+LockFile = PAL_LockFile
+UnlockFile = PAL_UnlockFile
+SearchPathA = PAL_SearchPathA
+SearchPathW = PAL_SearchPathW
+CreatePipe = PAL_CreatePipe
+CopyFileA = PAL_CopyFileA
+CopyFileW = PAL_CopyFileW
+DeleteFileA = PAL_DeleteFileA
+DeleteFileW = PAL_DeleteFileW
+MoveFileA = PAL_MoveFileA
+MoveFileW = PAL_MoveFileW
+MoveFileExA = PAL_MoveFileExA
+MoveFileExW = PAL_MoveFileExW
+CreateDirectoryA = PAL_CreateDirectoryA
+CreateDirectoryW = PAL_CreateDirectoryW
+RemoveDirectoryA = PAL_RemoveDirectoryA
+RemoveDirectoryW = PAL_RemoveDirectoryW
+FindFirstFileA = PAL_FindFirstFileA
+FindFirstFileW = PAL_FindFirstFileW
+FindNextFileA = PAL_FindNextFileA
+FindNextFileW = PAL_FindNextFileW
+FindClose = PAL_FindClose
+GetFileAttributesA = PAL_GetFileAttributesA
+GetFileAttributesW = PAL_GetFileAttributesW
+GetFileAttributesExW = PAL_GetFileAttributesExW
+SetFileAttributesA = PAL_SetFileAttributesA
+SetFileAttributesW = PAL_SetFileAttributesW
+WriteFile = PAL_WriteFile
+ReadFile = PAL_ReadFile
+GetStdHandle = PAL_GetStdHandle
+SetEndOfFile = PAL_SetEndOfFile
+SetFilePointer = PAL_SetFilePointer
+GetFileSize = PAL_GetFileSize
+GetFileInformationByHandle = PAL_GetFileInformationByHandle
+CompareFileTime = PAL_CompareFileTime
+SetFileTime = PAL_SetFileTime
+GetFileTime = PAL_GetFileTime
+FileTimeToLocalFileTime = PAL_FileTimeToLocalFileTime
+LocalFileTimeToFileTime = PAL_LocalFileTimeToFileTime
+GetSystemTimeAsFileTime = PAL_GetSystemTimeAsFileTime
+GetSystemTime = PAL_GetSystemTime
+FileTimeToDosDateTime = PAL_FileTimeToDosDateTime
+DosDateTimeToFileTime = PAL_DosDateTimeToFileTime
+FlushFileBuffers = PAL_FlushFileBuffers
+GetFileType = PAL_GetFileType
+GetConsoleCP = PAL_GetConsoleCP
+GetConsoleOutputCP = PAL_GetConsoleOutputCP
+GetFullPathNameA = PAL_GetFullPathNameA
+GetFullPathNameW = PAL_GetFullPathNameW
+GetLongPathNameW = PAL_GetLongPathNameW
+GetShortPathNameW = PAL_GetShortPathNameW
+GetTempFileNameA = PAL_GetTempFileNameA
+GetTempFileNameW = PAL_GetTempFileNameW
+GetTempPathA = PAL_GetTempPathA
+GetTempPathW = PAL_GetTempPathW
+GetCurrentDirectoryA = PAL_GetCurrentDirectoryA
+GetCurrentDirectoryW = PAL_GetCurrentDirectoryW
+SetCurrentDirectoryA = PAL_SetCurrentDirectoryA
+SetCurrentDirectoryW = PAL_SetCurrentDirectoryW
+GetUserNameW = PAL_GetUserNameW
+GetComputerNameW = PAL_GetComputerNameW
+GetLogicalDrives = KERNEL32.GetLogicalDrives 
+CreateSemaphoreA = PAL_CreateSemaphoreA
+CreateSemaphoreW = PAL_CreateSemaphoreW
+ReleaseSemaphore = PAL_ReleaseSemaphore
+CreateEventA = PAL_CreateEventA
+CreateEventW = PAL_CreateEventW
+SetEvent = PAL_SetEvent
+ResetEvent = PAL_ResetEvent
+OpenEventW = PAL_OpenEventW
+CreateMutexA = PAL_CreateMutexA
+CreateMutexW = PAL_CreateMutexW
+ReleaseMutex = PAL_ReleaseMutex
+GetCurrentProcessId = PAL_GetCurrentProcessId
+GetCurrentProcess = PAL_GetCurrentProcess
+GetCurrentThreadId = PAL_GetCurrentThreadId
+GetCurrentThread = PAL_GetCurrentThread
+CreateProcessW = PAL_CreateProcessW
+CreateProcessA = PAL_CreateProcessA
+ExitProcess = PAL_ExitProcess
+TerminateProcess = PAL_TerminateProcess
+GetExitCodeProcess = PAL_GetExitCodeProcess
+GetProcessTimes = PAL_GetProcessTimes
+WaitForSingleObject = PAL_WaitForSingleObject
+WaitForSingleObjectEx = PAL_WaitForSingleObjectEx
+WaitForMultipleObjects = PAL_WaitForMultipleObjects
+WaitForMultipleObjectsEx = PAL_WaitForMultipleObjectsEx
+DuplicateHandle = PAL_DuplicateHandle
+Sleep = PAL_Sleep
+SleepEx = PAL_SleepEx
+SwitchToThread = PAL_SwitchToThread
+CreateThread = PAL_CreateThread
+ExitThread = PAL_ExitThread
+SuspendThread = PAL_SuspendThread
+ResumeThread = PAL_ResumeThread
+QueueUserAPC = PAL_QueueUserAPC
+GetThreadContext = PAL_GetThreadContext
+SetThreadContext = PAL_SetThreadContext
+GetThreadPriority = PAL_GetThreadPriority
+SetThreadPriority = PAL_SetThreadPriority
+TlsAlloc = PAL_TlsAlloc
+TlsFree = PAL_TlsFree
+EnterCriticalSection = PAL_EnterCriticalSection
+LeaveCriticalSection = PAL_LeaveCriticalSection
+InitializeCriticalSection = PAL_InitializeCriticalSection
+DeleteCriticalSection = PAL_DeleteCriticalSection
+TryEnterCriticalSection = PAL_TryEnterCriticalSection
+SetErrorMode = PAL_SetErrorMode
+CreateFileMappingA = PAL_CreateFileMappingA
+CreateFileMappingW = PAL_CreateFileMappingW
+OpenFileMappingA = PAL_OpenFileMappingA
+OpenFileMappingW = PAL_OpenFileMappingW
+MapViewOfFile = PAL_MapViewOfFile
+UnmapViewOfFile = PAL_UnmapViewOfFile
+LoadLibraryA = PAL_LoadLibraryA
+LoadLibraryW = PAL_LoadLibraryW
+GetProcAddress = PAL_GetProcAddress
+FreeLibrary = PAL_FreeLibrary
+FreeLibraryAndExitThread = PAL_FreeLibraryAndExitThread
+DisableThreadLibraryCalls = PAL_DisableThreadLibraryCalls
+GetModuleFileNameA = PAL_GetModuleFileNameA
+GetModuleFileNameW = PAL_GetModuleFileNameW
+VirtualAlloc = PAL_VirtualAlloc
+VirtualFree = PAL_VirtualFree
+VirtualProtect = PAL_VirtualProtect
+VirtualQuery = PAL_VirtualQuery
+ReadProcessMemory = PAL_ReadProcessMemory
+WriteProcessMemory = PAL_WriteProcessMemory
+RtlMoveMemory = PAL_RtlMoveMemory
+GetProcessHeap = PAL_GetProcessHeap
+HeapAlloc = PAL_HeapAlloc
+HeapReAlloc = PAL_HeapReAlloc
+HeapFree = PAL_HeapFree
+LocalAlloc = PAL_LocalAlloc
+LocalFree = PAL_LocalFree
+FlushInstructionCache = PAL_FlushInstructionCache
+GetStringTypeExW = PAL_GetStringTypeExW
+CompareStringA = PAL_CompareStringA
+CompareStringW = PAL_CompareStringW
+GetACP = PAL_GetACP
+GetCPInfo = PAL_GetCPInfo
+IsDBCSLeadByteEx = PAL_IsDBCSLeadByteEx
+IsValidCodePage = PAL_IsValidCodePage
+MultiByteToWideChar = PAL_MultiByteToWideChar
+WideCharToMultiByte = PAL_WideCharToMultiByte
+GetSystemDefaultLangID = PAL_GetSystemDefaultLangID
+GetUserDefaultLangID = PAL_GetUserDefaultLangID
+SetThreadLocale = PAL_SetThreadLocale
+GetThreadLocale = PAL_GetThreadLocale
+GetLocaleInfoW = PAL_GetLocaleInfoW
+GetUserDefaultLCID = PAL_GetUserDefaultLCID
+GetTimeZoneInformation = PAL_GetTimeZoneInformation
+IsValidLocale = PAL_IsValidLocale
+GetCalendarInfoW = PAL_GetCalendarInfoW
+GetDateFormatW = PAL_GetDateFormatW
+OutputDebugStringA = PAL_OutputDebugStringA
+OutputDebugStringW = PAL_OutputDebugStringW
+DebugBreak = PAL_DebugBreak
+OpenProcess = PAL_OpenProcess
+GetEnvironmentVariableA = PAL_GetEnvironmentVariableA
+GetEnvironmentVariableW = PAL_GetEnvironmentVariableW
+SetEnvironmentVariableA = PAL_SetEnvironmentVariableA
+SetEnvironmentVariableW = PAL_SetEnvironmentVariableW
+GetEnvironmentStringsA = PAL_GetEnvironmentStringsA
+GetEnvironmentStringsW = PAL_GetEnvironmentStringsW
+FreeEnvironmentStringsA = PAL_FreeEnvironmentStringsA
+FreeEnvironmentStringsW = PAL_FreeEnvironmentStringsW
+CloseHandle = PAL_CloseHandle
+RaiseException = PAL_RaiseException
+GetTickCount = PAL_GetTickCount
+IsBadReadPtr = PAL_IsBadReadPtr
+IsBadWritePtr = PAL_IsBadWritePtr
+IsBadCodePtr = PAL_IsBadCodePtr
+FormatMessageW = PAL_FormatMessageW
+GetLastError = PAL_GetLastError
+SetLastError = PAL_SetLastError
+GetCommandLineW = PAL_GetCommandLineW
+GetVersionExA = PAL_GetVersionExA
+GetVersionExW = PAL_GetVersionExW
+GetSystemInfo = PAL_GetSystemInfo
+GetDiskFreeSpaceW = PAL_GetDiskFreeSpaceW
+PostQueuedCompletionStatus = PAL_PostQueuedCompletionStatus
+GetQueuedCompletionStatus = PAL_GetQueuedCompletionStatus
+_ecvt = PAL__ecvt
+log = PAL_log
+malloc = PAL_malloc
+free = PAL_free
+realloc = PAL_realloc
+exit = PAL_exit
+atexit private 
+qsort = PAL_qsort
+bsearch = PAL_bsearch
+_splitpath = PAL__splitpath
+_wsplitpath = PAL__wsplitpath
+_makepath = PAL__makepath
+_wmakepath = PAL__wmakepath
+_fullpath = PAL__fullpath
+_swab = PAL__swab
+
+
+time = PAL_time
+localtime = PAL_localtime
+mktime = PAL_mktime
+
+
+
+
+
+
+_open_osfhandle = PAL__open_osfhandle
+fclose = PAL_fclose
+setbuf = PAL_setbuf
+fwrite = PAL_fwrite
+fread = PAL_fread
+fputs = PAL_fputs
+_getw = PAL__getw
+_putw = PAL__putw
+fseek = PAL_fseek
+ftell = PAL_ftell
+fgetpos = MSVCR80D.fgetpos
+fsetpos = MSVCR80D.fsetpos
+feof = PAL_feof
+ferror = PAL_ferror
+fopen = PAL_fopen
+_fdopen = PAL__fdopen
+_close = PAL__close
+_wfopen = PAL__wfopen
+memchr = MSVCR80D.memchr
+strcmp = MSVCR80D.strcmp
+strncmp = MSVCR80D.strncmp
+_strnicmp = MSVCR80D._strnicmp
+strcat = MSVCR80D.strcat
+strncat = MSVCR80D.strncat
+strcpy = MSVCR80D.strcpy
+strncpy = MSVCR80D.strncpy
+strchr = MSVCR80D.strchr
+strrchr = MSVCR80D.strrchr
+strpbrk = MSVCR80D.strpbrk
+atoi = MSVCR80D.atoi
+atol = MSVCR80D.atol
+tolower = MSVCR80D.tolower
+toupper = MSVCR80D.toupper
+wcsncat = MSVCR80D.wcsncat
+wcsncpy = MSVCR80D.wcsncpy
+_itow = MSVCR80D._itow
+_i64tow = MSVCR80D._i64tow
+_ui64tow = MSVCR80D._ui64tow
+_wtoi = MSVCR80D._wtoi
+towlower = MSVCR80D.towlower
+towupper = MSVCR80D.towupper
+fflush = PAL_fflush
+lstrcatW = KERNEL32.lstrcatW
+lstrcpyW = KERNEL32.lstrcpyW
+lstrlenA = KERNEL32.lstrlenA
+lstrlenW = KERNEL32.lstrlenW
+lstrcpynW = KERNEL32.lstrcpynW
+memcpy = MSVCR80D.memcpy
+memcmp = MSVCR80D.memcmp
+memset = MSVCR80D.memset
+memmove = MSVCR80D.memmove
+strlen = MSVCR80D.strlen
+sprintf = MSVCR80D.sprintf
+vsprintf = MSVCR80D.vsprintf
+_snprintf = MSVCR80D._snprintf
+_vsnprintf = MSVCR80D._vsnprintf
+sscanf = MSVCR80D.sscanf
+_stricmp = MSVCR80D._stricmp
+strstr = MSVCR80D.strstr
+strtok = MSVCR80D.strtok
+strspn = MSVCR80D.strspn
+strcspn = MSVCR80D.strcspn
+strtoul = MSVCR80D.strtoul
+atof = MSVCR80D.atof
+_gcvt = MSVCR80D._gcvt
+strtod = MSVCR80D.strtod
+wcsspn = MSVCR80D.wcsspn
+wcstod = MSVCR80D.wcstod
+_strlwr = MSVCR80D._strlwr
+_mbslen = MSVCR80D._mbslen
+_mbsinc = MSVCR80D._mbsinc
+_mbsninc = MSVCR80D._mbsninc
+_mbsdec = MSVCR80D._mbsdec
+wcstol = MSVCR80D.wcstol
+wcstoul = MSVCR80D.wcstoul
+wcscat = MSVCR80D.wcscat
+wcscpy = MSVCR80D.wcscpy
+wcslen = MSVCR80D.wcslen
+wcscmp = MSVCR80D.wcscmp
+wcsncmp = MSVCR80D.wcsncmp
+_wcsicmp = MSVCR80D._wcsicmp
+_wcsnicmp = MSVCR80D._wcsnicmp
+wcschr = MSVCR80D.wcschr
+wcsrchr = MSVCR80D.wcsrchr
+
+
+swprintf = MSVCR80D.?swprintf@@YAHPAGIPBGZZ
+
+
+
+
+vswprintf = MSVCR80D.vswprintf
+_snwprintf = MSVCR80D._snwprintf
+_vsnwprintf = MSVCR80D._vsnwprintf
+swscanf = MSVCR80D.swscanf
+iswalpha = MSVCR80D.iswalpha
+iswupper = MSVCR80D.iswupper
+iswspace = MSVCR80D.iswspace
+iswprint = MSVCR80D.iswprint
+isupper = MSVCR80D.isupper
+islower = MSVCR80D.islower
+wcspbrk = MSVCR80D.wcspbrk
+wcsstr = MSVCR80D.wcsstr
+wcstok = MSVCR80D.wcstok
+wcscspn = MSVCR80D.wcscspn
+_wcslwr = MSVCR80D._wcslwr
+isspace = MSVCR80D.isspace
+isprint = MSVCR80D.isprint
+isalpha = MSVCR80D.isalpha
+isalnum = MSVCR80D.isalnum
+__iscsym = MSVCR80D.__iscsym
+isdigit = MSVCR80D.isdigit
+iswdigit = MSVCR80D.iswdigit
+iswxdigit = MSVCR80D.iswxdigit
+isxdigit = MSVCR80D.isxdigit
+fprintf = MSVCR80D.fprintf
+fwprintf = MSVCR80D.fwprintf
+vfprintf = MSVCR80D.vfprintf
+vfwprintf = MSVCR80D.vfwprintf
+printf = MSVCR80D.printf
+vprintf = MSVCR80D.vprintf
+wprintf = MSVCR80D.wprintf
+_rotl = MSVCR80D._rotl
+_rotr = MSVCR80D._rotr
+abs = MSVCR80D.abs
+labs = MSVCR80D.labs
+sqrt = MSVCR80D.sqrt
+log10 = MSVCR80D.log10
+exp = MSVCR80D.exp
+pow = MSVCR80D.pow
+acos = MSVCR80D.acos
+asin = MSVCR80D.asin
+atan = MSVCR80D.atan
+atan2 = MSVCR80D.atan2
+cos = MSVCR80D.cos
+sin = MSVCR80D.sin
+tan = MSVCR80D.tan
+cosh = MSVCR80D.cosh
+sinh = MSVCR80D.sinh
+tanh = MSVCR80D.tanh
+fmod = MSVCR80D.fmod
+floor = MSVCR80D.floor
+ceil = MSVCR80D.ceil
+fabs = MSVCR80D.fabs
+modf = MSVCR80D.modf
+_finite = MSVCR80D._finite
+_isnan = MSVCR80D._isnan
+_copysign = MSVCR80D._copysign
+_strdup = MSVCR80D._strdup
+_ftol = MSVCR80D._ftol
+getenv = PAL_getenv
+_putenv = PAL__putenv
+getc = MSVCR80D.getc
+ungetc = MSVCR80D.ungetc
+fputc = MSVCR80D.fputc
+putchar = MSVCR80D.putchar
+fgetc = MSVCR80D.fgetc
+fgets = PAL_fgets
+fgetws = MSVCR80D.fgetws
+srand = MSVCR80D.srand
+rand = MSVCR80D.rand
+
+
+ctime = MSVCR80D._ctime32
+
+
+
+
+gethostbyname = PAL_gethostbyname
+gethostbyaddr = PAL_gethostbyaddr
+gethostname = PAL_gethostname
+inet_addr = PAL_inet_addr
+getpeername = PAL_getpeername
+getsockopt = PAL_getsockopt
+setsockopt = PAL_setsockopt
+connect = PAL_connect
+send = PAL_send
+recv = PAL_recv
+closesocket = PAL_closesocket
+accept = PAL_accept
+listen = PAL_listen
+bind = PAL_bind
+shutdown = PAL_shutdown
+sendto = PAL_sendto
+recvfrom = PAL_recvfrom
+getsockname = PAL_getsockname
+select = PAL_select
+socket = PAL_socket
+WSAStartup = PAL_WSAStartup
+WSACleanup = PAL_WSACleanup
+WSAConnect = PAL_WSAConnect
+WSASend = PAL_WSASend
+WSASendTo = PAL_WSASendTo
+WSARecv = PAL_WSARecv
+WSARecvFrom = PAL_WSARecvFrom
+WSAEventSelect = PAL_WSAEventSelect
+WSASocketA = PAL_WSASocketA
+WSASocketW = PAL_WSASocketW
+WSAIoctl = PAL_WSAIoctl
+WSAEnumNetworkEvents = PAL_WSAEnumNetworkEvents
+ioctlsocket = PAL_ioctlsocket
+
+WSAGetOverlappedResult = PAL_WSAGetOverlappedResult
+

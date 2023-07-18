@@ -1,0 +1,19 @@
+BUILD: Compile and Link for rotor_x86
+BUILD: Compile and Link for rotor_x86
+BUILD: Compile and Link for rotor_x86
+BUILD: Compile and Link for rotor_x86
+BUILD: Examining d:\_ntroot\depot\lab05_n\sscli20\palrt\msgs directory for files to compile.
+Building generated files in d:\_ntroot\depot\lab05_n\sscli20\palrt\msgs ********************
+'NMAKE.EXE -c BUILDMSG=Stop. NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 BUILD_PHASE= ROTOR_X86=1'
+1>BUILDMSG: Processing d:\_ntroot\depot\lab05_n\sscli20\palrt\msgs
+1>
+1>Stop.
+Compiling d:\_ntroot\depot\lab05_n\sscli20\palrt\msgs directory ********************
+'NMAKE.EXE -c BUILDMSG=Stop. NTTEST= UMTEST= BUILD_PHASE= NOLINK=1 ROTOR_X86=1'
+1>BUILDMSG: Processing d:\_ntroot\depot\lab05_n\sscli20\palrt\msgs
+1>	D:\_NTROOT\depot\Lab05_n\sscli20\binaries.x86fre.rotor\resourcecompiler.exe -fo obj\rotor_x86\rotor_pal.satellite -Di386 -D_X86_ -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1 -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_WIN32_IE=0x0400 -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DFPO=0 -DNDEBUG -D_DLL=1 -D_MT=1 -DFEATURE_PAL -DPAL_PORTABLE_SEH -DGC_SMP -DFJITONLY -DNTMAKEENV -DNDEBUG -DOFFICIAL_BUILD=0 -DBETA=0 -DFX_VER_PRIVATEBUILD_STR=SPHINXLOGIC -DURTBLDENV_FRIENDLY=Free -DFX_BRANCH_SYNC_COUNTER_VALUE=0  -ID:\_NTROOT\depot\Lab05_n\sscli20\not_present\OAK_INC_PATH -ID:\_NTROOT\depot\Lab05_n\sscli20\pal\inc -ID:\_NTROOT\depot\Lab05_n\sscli20\palrt\inc .\rotor_pal.rc
+1>'D:\_NTROOT\depot\Lab05_n\sscli20\binaries.x86fre.rotor\resourcecompiler.exe' is not recognized as an internal or external command,
+1>operable program or batch file.
+1>NMAKE :  U1077: 'D:\_NTROOT\depot\Lab05_n\sscli20\binaries.x86fre.rotor\resourcecompiler.exe' : return code '0x1'
+1>Stop.
+BUILD: NMAKE.EXE -c BUILDMSG=Stop. NTTEST= UMTEST= BUILD_PHASE= NOLINK=1 ROTOR_X86=1 failed - rc = 2

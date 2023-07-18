@@ -1,0 +1,68 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cordebug_i.obj \
+    $(_OBJ_DIR)\i386\clrdata_i.obj \
+    $(_OBJ_DIR)\i386\clrinternal_i.obj \
+    $(_OBJ_DIR)\i386\xclrdata_i.obj \
+    $(_OBJ_DIR)\i386\corffi_i.obj \
+    $(_OBJ_DIR)\i386\corsym_i.obj \
+    $(_OBJ_DIR)\i386\corprof_i.obj \
+    $(_OBJ_DIR)\i386\corpub_i.obj \
+    $(_OBJ_DIR)\i386\ivalidator_i.obj \
+    $(_OBJ_DIR)\i386\ivehandler_i.obj \
+    $(_OBJ_DIR)\i386\gchost_i.obj \
+    $(_OBJ_DIR)\i386\fusion_i.obj \
+    $(_OBJ_DIR)\i386\fusionpriv_i.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\cordebug_i.obj \
+    $(_OBJ_DIR)\ia64\clrdata_i.obj \
+    $(_OBJ_DIR)\ia64\clrinternal_i.obj \
+    $(_OBJ_DIR)\ia64\xclrdata_i.obj \
+    $(_OBJ_DIR)\ia64\corffi_i.obj \
+    $(_OBJ_DIR)\ia64\corsym_i.obj \
+    $(_OBJ_DIR)\ia64\corprof_i.obj \
+    $(_OBJ_DIR)\ia64\corpub_i.obj \
+    $(_OBJ_DIR)\ia64\ivalidator_i.obj \
+    $(_OBJ_DIR)\ia64\ivehandler_i.obj \
+    $(_OBJ_DIR)\ia64\gchost_i.obj \
+    $(_OBJ_DIR)\ia64\fusion_i.obj \
+    $(_OBJ_DIR)\ia64\fusionpriv_i.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\cordebug_i.obj \
+    $(_OBJ_DIR)\amd64\clrdata_i.obj \
+    $(_OBJ_DIR)\amd64\clrinternal_i.obj \
+    $(_OBJ_DIR)\amd64\xclrdata_i.obj \
+    $(_OBJ_DIR)\amd64\corffi_i.obj \
+    $(_OBJ_DIR)\amd64\corsym_i.obj \
+    $(_OBJ_DIR)\amd64\corprof_i.obj \
+    $(_OBJ_DIR)\amd64\corpub_i.obj \
+    $(_OBJ_DIR)\amd64\ivalidator_i.obj \
+    $(_OBJ_DIR)\amd64\ivehandler_i.obj \
+    $(_OBJ_DIR)\amd64\gchost_i.obj \
+    $(_OBJ_DIR)\amd64\fusion_i.obj \
+    $(_OBJ_DIR)\amd64\fusionpriv_i.obj
+
+PASS0_AMD64_OBJECTS=
+
+ROTOR_X86_OBJECTS= \
+    $(_OBJ_DIR)\rotor_x86\cordebug_i.obj \
+    $(_OBJ_DIR)\rotor_x86\clrdata_i.obj \
+    $(_OBJ_DIR)\rotor_x86\clrinternal_i.obj \
+    $(_OBJ_DIR)\rotor_x86\xclrdata_i.obj \
+    $(_OBJ_DIR)\rotor_x86\corffi_i.obj \
+    $(_OBJ_DIR)\rotor_x86\corsym_i.obj \
+    $(_OBJ_DIR)\rotor_x86\corprof_i.obj \
+    $(_OBJ_DIR)\rotor_x86\corpub_i.obj \
+    $(_OBJ_DIR)\rotor_x86\ivalidator_i.obj \
+    $(_OBJ_DIR)\rotor_x86\ivehandler_i.obj \
+    $(_OBJ_DIR)\rotor_x86\gchost_i.obj \
+    $(_OBJ_DIR)\rotor_x86\fusion_i.obj \
+    $(_OBJ_DIR)\rotor_x86\fusionpriv_i.obj
+
+PASS0_ROTOR_X86_OBJECTS=
+
